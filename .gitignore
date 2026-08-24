@@ -1,0 +1,23 @@
+# Derleme çıktıları
+build/
+x64/
+x86/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.docstates
+
+# Model dosyası (büyük - repoya değil, README'deki export adımıyla üretilmeli)
+*.onnx
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
